@@ -8,15 +8,21 @@
 </head>
 <body>
     <h1>Exercice 3 Partie 1 : Les variables PHP</h1>
-    <p>
+    <ul>
+        <li>
         <?php
             $km = 1;
-            echo nl2br ($km."\n");
+            echo $km;?>
+        </li>
+        <li>
+            <?php
             $km = 3;
-            echo nl2br ($km."\n");
+            echo $km;?>
+        <li>
+        <?php
             $km = 125;
-            echo $km;
-        ?>
-    </p>
+            echo $km;?>
+        </li>
+    </ul>
 </body>
 </html>
